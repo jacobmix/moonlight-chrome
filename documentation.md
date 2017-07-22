@@ -1,6 +1,6 @@
-## Installing
+# Installing
 
-# Method 1:
+## Method 1:
 
 Open `chrome://extensions/` Make sure `Developer Mode` is on,   
 drag, and drop the `moonlight-chrome.crx` file you downloaded from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases).
@@ -10,7 +10,7 @@ So if you can’t download the crx file or drag & drop to install. See method 2.
 
 
 
-# Method 2:
+## Method 2:
 
 Rename `moonlight-chrome.crx` to `moonlight-chrome.rar` and right click it. Pick `Extract to Moonlight-chrome/`
 
