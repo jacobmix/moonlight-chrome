@@ -4,7 +4,7 @@
 
 Open `chrome://extensions/` Make sure `Developer Mode` is on, drag, and drop the `moonlight-chrome.crx` file you downloaded from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases)
 
-Note: This method might not work for some because of how strict Google is with none Google Store extensions.
+Note: This method might not work for some because of how strict Google is with none Google Store extensions.   
 So if you can’t download the crx file or drag & drop to install See method 2.
 
 
