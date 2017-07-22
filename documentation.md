@@ -16,7 +16,8 @@ Note: This method might not work for some because of how strict Google is with n
 (Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)
 
 2.5. If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.
-And if you need an extractor/compresser. Get something like [WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html) Most likely you want the `64-bit x64` version.
+And if you need an extractor/compresser. Get something like
+[WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html) Most likely you want the `64-bit x64` version.
 But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.
 
 3. Go to `chrome://extensions/` Make sure `Developer Mode` is on, and click `Load unpacked extension...`
