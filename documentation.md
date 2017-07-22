@@ -10,9 +10,7 @@ So if you can’t download the crx file or drag & drop to install. See method 2.
 
 ## Method 2:
 
-Rename `moonlight-chrome.crx` to `moonlight-chrome.rar` and right click it. Pick `Extract to Moonlight-chrome/`
-
-When it’s done extracting move the `Moonlight-chrome/` folder somewhere you’ll remember, and not move around.
+Download `Source code (zip)` Extract it, and move the contents somewhere you’ll remember, and not move around.
 (Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)
 
 If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.   
