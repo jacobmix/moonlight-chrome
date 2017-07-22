@@ -8,8 +8,6 @@ drag, and drop the `moonlight-chrome.crx` file you downloaded from [realeses](ht
 Note: This method might not work for some because of how strict Google is with none Google Store extensions.   
 So if you can’t download the crx file or drag & drop to install. See method 2.
 
-
-
 ## Method 2:
 
 Rename `moonlight-chrome.crx` to `moonlight-chrome.rar` and right click it. Pick `Extract to Moonlight-chrome/`
