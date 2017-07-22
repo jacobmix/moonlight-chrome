@@ -16,9 +16,10 @@ Rename `moonlight-chrome.crx` to `moonlight-chrome.rar` and right click it. Pick
 When it’s done extracting move the `Moonlight-chrome/` folder somewhere you’ll remember, and not move around.
 (Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)
 
-2.5 If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.
-And if you need an extractor/compresser. Get something like
-[WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html) Most likely you want the `64-bit x64` version.
+If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.
+And if you need an extractor/compresser.   
+Get something like
+[WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html) Most likely you want the `64-bit x64` version.   
 But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.
 
 Go to `chrome://extensions/` Make sure `Developer Mode` is on, and click `Load unpacked extension...`
