@@ -44,11 +44,11 @@ GeForce Experiance > Settings > wait for left tabs to load > Shield > GameStream
 Check your info at `YourLocalIPHere:47989/serverinfo`   
 (Get your local ip by opening a CMD window, and type `ipconfig /all` Then find your network, and it's the IPv4 address.)
 
-If `nvstreamer.exe` is running. Try ending it with taskmanager.
+If `nvstreamer.exe` is running. Try ending it with taskmanager, and disable. Then re-enable GameStream.
 
 ## Moonlight
 
-Read the Chrome App Logs
+Read the Chrome App Logs   
 
 Delete stored parings
 
