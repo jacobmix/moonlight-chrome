@@ -2,7 +2,7 @@
 
 [How to see file extensions](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)   
 
-Have an extractor/compresser. Get something like [WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html) Most likely you want the `64-bit x64` version.   
+Have an extractor/compresser. Get something like [WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html). Most likely you want the `64-bit x64` version.   
 But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.
 
 Know your Public IP adress. Just Google `My IP` should should show it tho.
