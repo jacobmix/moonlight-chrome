@@ -3,63 +3,63 @@
 [How to see file extensions](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)   
 
 Have an extractor/compresser. Get something like [WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html). Most likely you want the `64-bit x64` version.   
-But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.
+But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.   
 
 Know your Public IP adress. Just Google `My IP` should should show it tho.   
-Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all` Find your network, and it's IPv4 address.
+Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all` Find your network, and it's IPv4 address.   
 
 # Installing
 
 ## Method 1:
 
 Open `chrome://extensions/` Make sure `Developer Mode` is on,   
-drag, and drop the `moonlight-chrome.crx` file you downloaded from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases).
+drag, and drop the `moonlight-chrome.crx` file you downloaded from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases).   
 
 Note: This method might not work for some because of how strict Google is with none Google Store extensions.   
-So if you can’t download the crx file or drag & drop to install. See [method 2](https://github.com/jacobmix/moonlight-chrome/blob/master/documentation.md#method-2).
+So if you can’t download the crx file or drag & drop to install. See [method 2](https://github.com/jacobmix/moonlight-chrome/blob/master/documentation.md#method-2).   
 
 ## Method 2:
 
 Download `Source code (zip)` Extract it, and move the contents somewhere you’ll remember, and not move around.   
-(Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)
+(Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)   
 
 Go to `chrome://extensions/` Make sure `Developer Mode` is on, and click `Load unpacked extension...`   
 Then find, and select the `Moonlight-chrome` folder you moved.   
-(Like the example above `C:\Unpacked Chrome Extensions\Moonlight-chrome`)
+(Like the example above `C:\Unpacked Chrome Extensions\Moonlight-chrome`)   
 
 You should now see `Moonlight Game Streaming` Enable it if it isn’t already.   
 Now you can run it by clicking the blue `Launch` text under the name, and description.   
-You can also make a shortcut by clicking `Details` Then `Create shortcuts...` You can also run it from an [app launcher](https://chrome.google.com/webstore/detail/apps-launcher/ijmgkhchjindcjamnckoiahagecjnkdc).
+You can also make a shortcut by clicking `Details` Then `Create shortcuts...` You can also run it from an [app launcher](https://chrome.google.com/webstore/detail/apps-launcher/ijmgkhchjindcjamnckoiahagecjnkdc).   
 
 # Troubleshooting
 
 ## Chrome
 
-Make sure Chrome is up to date: `chrome://settings/help`
+Make sure Chrome is up to date: `chrome://settings/help`   
 
-Check if Video Decoding, and WebGL are supported or enabled: `chrome://gpu`
+Check if Video Decoding, and WebGL are supported or enabled: `chrome://gpu`   
 
 ## GeForce Experience
 
-Make sure GeForce Experience, and video drivers are up to date.
+Make sure GeForce Experience, and video drivers are up to date.   
 
 Make sure GameStream is on in GeForce Experience:   
 GeForce Experience > Settings > wait for left tabs to load > Shield > GameStream > On (Green)  
 
-Check if anything shows up when you go to `YourLocalIPHere:47989/serverinfo` if something does you should be fine.
+Check if anything shows up when you go to `YourLocalIPHere:47989/serverinfo` if something does you should be fine.   
 
-If `nvstreamer.exe` is running. Try ending it with taskmanager, and disable. Then re-enable GameStream.
+If `nvstreamer.exe` is running. Try ending it with taskmanager, and disable. Then re-enable GameStream.   
 
 ## Moonlight
 
 Read the Chrome App Logs   
 
-Delete stored parings
+Delete stored parings   
 
 ## Potforward
 
-Portforward these ports through your router/modem for your hosting PC.
-TCP: ``35043,47984,47989,47991,47995-47996,48010`` | UDP: ``7,9,47989,47992,47998-48000,48010``
+Portforward these ports through your router/modem for your hosting PC.   
+TCP: ``35043,47984,47989,47991,47995-47996,48010`` | UDP: ``7,9,47989,47992,47998-48000,48010``   
 
 ## Firewall
 
