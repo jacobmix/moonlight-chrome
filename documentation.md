@@ -12,16 +12,16 @@ Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all
 
 ## Method 1:
 
-Downloaded the latest `moonlight-chrome.crx` from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases). Open `chrome://extensions/` Make sure `Developer Mode` is on.   
+Download the latest `moonlight-chrome.crx` from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases). Open `chrome://extensions/` Make sure `Developer Mode` is on.   
 Drag, and drop the `moonlight-chrome.crx` file you downloaded before. Into the extensions page. It should now install.   
 
-Note: This method might not work for some because of how strict Google is with none Google Store extensions.   
+Note: This method might not work for some because of how strict Google is with none-chrome-store extensions.   
 So if you can’t download the crx file or drag & drop to install. See [method 2](https://github.com/jacobmix/moonlight-chrome/blob/master/documentation.md#method-2).   
 
 ## Method 2:
 
 Download the latest `Source code (zip)` from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases).   
-Extract it, and move the contents somewhere you’ll remember, and not move around.   
+Extract it, and move the contents somewhere you’ll remember, and _not move around_.   
 (Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)   
 
 Go to `chrome://extensions/` Make sure `Developer Mode` is on, and click `Load unpacked extension...`   
