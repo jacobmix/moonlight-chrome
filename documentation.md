@@ -53,9 +53,9 @@ If `nvstreamer.exe` is running. Try ending it with taskmanager, and disable. The
 
 ## Moonlight Troubleshooting:
 
-Read the Chrome App Logs   
+[Read the Chrome App Logs](https://github.com/moonlight-stream/moonlight-chrome/wiki#reading-the-chrome-app-logs)   
 
-Delete stored parings   
+[Delete stored parings](https://github.com/moonlight-stream/moonlight-chrome/wiki#deleting-all-stored-pairings)   
 
 ## Potforward & Troubleshooting:
 
