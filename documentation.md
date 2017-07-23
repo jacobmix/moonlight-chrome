@@ -41,7 +41,8 @@ Make sure GeForce Experiance, and video drivers are up to date.
 Make sure GameStream is on in GeForce Experiance:   
 GeForce Experiance > Settings > wait for left tabs to load > Shield > GameStream > On (Green)  
 
-YourLocalIPHere:47989/serverinfo
+Check your info at `YourLocalIPHere:47989/serverinfo`
+(Get your local ip by opening a CMD window, and type `ipconfig /all` Then find your network, and it's the IPv4 address.)
 
+If `nvstreamer.exe` is running. Try ending it with taskmanager.
 
-nvstreamer.exe
