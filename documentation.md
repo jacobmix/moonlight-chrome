@@ -60,7 +60,7 @@ TCP: 35043,47984,47989,47991,47995-47996,48010 | UDP: 7,9,47989,47992,47998-4800
 
 Allow all the ports through your firewall.   
 This can be edited manually. But here is a script that will do it for you.   
-Just copy it, and paste it into a txt file. Then rename the file extention to a bat file, and run it as admin.
+Just copy it, and paste it into a txt file. Then rename the file extention to a bat file, and run it as admin.   
 If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.
 
 ```
