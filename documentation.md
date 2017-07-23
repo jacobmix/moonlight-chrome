@@ -1,4 +1,4 @@
-#Stuff to know/have before we begin
+# Stuff to know/have before we begin
 
 [How to see file extensions](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)   
 
