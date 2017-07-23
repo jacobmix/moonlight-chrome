@@ -40,7 +40,7 @@ If you're not a developer, you should disable these extensions running in develo
 `Disable` `Cancel`   
 `Learn more`   
 Just press `Cancel` to continue without disabling Moonlght. If you don't want this popup every time you launch Chrome:   
-[Here](https://stackoverflow.com/a/30361260)'s a script that will disable it when ran as admin while Chrome is closed.   
+[Here](https://stackoverflow.com/a/30361260)'s a script that will disable it when run as admin while Chrome is closed.   
 Note: The popup will return when Chrome updates. So you might wanna keep the file or get it again.   
 
 # Troubleshooting:
