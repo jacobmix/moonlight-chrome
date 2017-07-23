@@ -28,5 +28,20 @@ You can also make a shortcut by clicking `Details` Then `Create shortcuts...` Yo
 
 # Troubleshooting
 
-Make sure GameStream is on in GeForce Experiance:
-![GFE GameStream on]https://user-images.githubusercontent.com/5995327/27591217-4ec77ab6-5b51-11e7-8c9a-f1dcf22ecfb9.png "GeForce Experiance > Settings > wait for left tabs to load > Shield > GameStream > On")
+## Chrome
+
+Make sure Chrome is up to date: `chrome://settings/help`
+
+Check if Video Decoding, and WebGL are supported or enabled: `chrome://gpu`
+
+## GeForce Experiance
+
+Make sure GeForce Experiance, and video drivers are up to date.
+
+Make sure GameStream is on in GeForce Experiance:   
+GeForce Experiance > Settings > wait for left tabs to load > Shield > GameStream > On (Green)  
+
+YourLocalIPHere:47989/serverinfo
+
+
+nvstreamer.exe
