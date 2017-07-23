@@ -25,3 +25,8 @@ Then find, and select the `Moonlight-chrome` folder you moved.
 You should now see `Moonlight Game Streaming` Enable it if it isn’t already.   
 Now you can run it by clicking the blue `Launch` text under the name, and description.   
 You can also make a shortcut by clicking `Details` Then `Create shortcuts...` You can also run it from an [app launcher](https://chrome.google.com/webstore/detail/apps-launcher/ijmgkhchjindcjamnckoiahagecjnkdc).
+
+# Troubleshooting
+
+Make sure GameStream is on in GeForce Experiance:
+![GFE GameStream on]https://user-images.githubusercontent.com/5995327/27591217-4ec77ab6-5b51-11e7-8c9a-f1dcf22ecfb9.png "GeForce Experiance > Settings > wait for left tabs to load > Shield > GameStream > On")
