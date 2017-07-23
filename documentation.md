@@ -35,7 +35,7 @@ You can also make a shortcut by clicking `Details` Then `Create shortcuts...` Yo
 Chrome might popup with a warning every time you start it up now. Saying something like:   
 `Disable developer mode extensions`   
 ```Extentions running in a developer mode can harm your computer.
-If you're not a developer, you should disable these extensions running in developer mode to stay save.```
+If you're not a developer, you should disable these extensions running in developer mode to stay save. ```
 `Disable` `Cancel`   
 `Learn more`   
 Just press `Cancel` to continue without disabling Moonlght. If you don't want this popup every time you launch Chrome:   
