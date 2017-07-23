@@ -8,12 +8,12 @@ But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whet
 Know your Public IP adress. Just Google `My IP` should should show it tho.   
 Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all` Find your network, and it's IPv4 address.   
 
-# Installing:
+# Download & Installing:
 
 ## Method 1:
 
-Open `chrome://extensions/` Make sure `Developer Mode` is on,   
-drag, and drop the `moonlight-chrome.crx` file you downloaded from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases).   
+Downloaded the latest crx from [realeses](https://github.com/moonlight-stream/moonlight-chrome/releases). Open `chrome://extensions/` Make sure `Developer Mode` is on.   
+Drag, and drop the `moonlight-chrome.crx` file you downloaded before. Into the extensions page. It should now install.
 
 Note: This method might not work for some because of how strict Google is with none Google Store extensions.   
 So if you can’t download the crx file or drag & drop to install. See [method 2](https://github.com/jacobmix/moonlight-chrome/blob/master/documentation.md#method-2).   
