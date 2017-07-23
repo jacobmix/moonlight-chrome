@@ -59,7 +59,7 @@ Delete stored parings
 ## Potforward & Troubleshooting:
 
 Portforward these ports through your router/modem for your hosting PC.   
-TCP: ``35043,47984,47989,47991,47995-47996,48010`` | UDP: ``7,9,47989,47992,47998-48000,48010``   
+TCP: ``35043,47984,47989,47991,47995-47996,48010`` UDP: ``7,9,47989,47992,47998-48000,48010``   
 
 ## Firewall & Troubleshooting:
 
