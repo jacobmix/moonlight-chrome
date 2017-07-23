@@ -20,13 +20,8 @@ So if you can’t download the crx file or drag & drop to install. See [method 2
 
 ## Method 2:
 
-Download `Source code (zip)` Extract it, and move the contents somewhere you’ll remember, and not move around.
+Download `Source code (zip)` Extract it, and move the contents somewhere you’ll remember, and not move around.   
 (Something like `C:\Unpacked Chrome Extensions\Moonlight-chrome` for example)
-
-If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.   
-And if you need an extractor/compresser. Get something like
-[WinRAR](http://www.rarlab.com/download.htm) or [7Zip](http://www.7-zip.org/download.html) Most likely you want the `64-bit x64` version.   
-But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.
 
 Go to `chrome://extensions/` Make sure `Developer Mode` is on, and click `Load unpacked extension...`   
 Then find, and select the `Moonlight-chrome` folder you moved.   
@@ -52,7 +47,6 @@ Make sure GameStream is on in GeForce Experience:
 GeForce Experience > Settings > wait for left tabs to load > Shield > GameStream > On (Green)  
 
 Check if anything shows up when you go to `YourLocalIPHere:47989/serverinfo` if something does you should be fine.
-(Get your local ip by opening a CMD window, and type `ipconfig /all` Then find your network, and it's the IPv4 address.)
 
 If `nvstreamer.exe` is running. Try ending it with taskmanager, and disable. Then re-enable GameStream.
 
@@ -72,7 +66,6 @@ TCP: ``35043,47984,47989,47991,47995-47996,48010`` | UDP: ``7,9,47989,47992,4799
 Allow all the ports through your hosting PC's firewall.   
 This can be edited manually. But here is a script that will do it for you.   
 Just copy it, and paste it into a txt file. Then rename the file extention to a bat file, and run it as admin.   
-If you can’t see file extensions [here](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)’s how to.
 
 ```
 @echo off
