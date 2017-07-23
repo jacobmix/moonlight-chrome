@@ -32,6 +32,16 @@ You should now see `Moonlight Game Streaming` Enable it if it isn’t already.
 Now you can run it by clicking the blue `Launch` text under the name, and description.   
 You can also make a shortcut by clicking `Details` Then `Create shortcuts...` You can also run it from an [app launcher](https://chrome.google.com/webstore/detail/apps-launcher/ijmgkhchjindcjamnckoiahagecjnkdc).   
 
+Chrome might popup with a warning every time you start it up now. Saying something like:   
+`Disable developer mode extensions`   
+`Extentions running in a developer mode can harm your computer.
+If you're not a developer, you should disable these extensions running in developer mode to stay save.`
+`Disable` `Cancel`   
+`Learn more`   
+Just press `Cancel` to continue without disabling Moonlght. If you don't want this popup every time you launch Chrome
+[here](https://stackoverflow.com/a/30361260)'s a script that will disable it when ran as admin while Chrome is closed.
+Note: The popup will return when Chrome updates. So you might wanna keep the file or get it again.
+
 # Troubleshooting:
 
 ## Chrome Troubleshooting:
