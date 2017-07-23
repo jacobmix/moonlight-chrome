@@ -41,8 +41,82 @@ Make sure GeForce Experiance, and video drivers are up to date.
 Make sure GameStream is on in GeForce Experiance:   
 GeForce Experiance > Settings > wait for left tabs to load > Shield > GameStream > On (Green)  
 
-Check your info at `YourLocalIPHere:47989/serverinfo`
+Check your info at `YourLocalIPHere:47989/serverinfo`   
 (Get your local ip by opening a CMD window, and type `ipconfig /all` Then find your network, and it's the IPv4 address.)
 
 If `nvstreamer.exe` is running. Try ending it with taskmanager.
 
+## Moonlight
+
+Read the Chrome App Logs
+
+Delete stored parings
+
+## Potforward
+
+TCP: 35043,47984,47989,47991,47995-47996,48010 | UDP: 7,9,47989,47992,47998-48000,48010
+
+## Firewall
+
+```
+@echo off
+
+cd /d "%~dp0"
+
+echo Running Open GameStream Ports - ALL script.
+
+set LOGFILE=Open_GameStream_Ports-ALL-Batch.log
+
+call :LOG > %LOGFILE%
+
+exit
+
+:LOG
+
+@echo on
+set PORT_TCP_IN=7,9,7777,35043,47984,47989,47991,47995-47996,48010
+set PORT_TCP_OUT=7,9,7777,35043,47984,47989,47991,47995-47996,48010
+set PORT_UDP_IN=7,9,7777,47989,47992,47998-48000,48010
+set PORT_UDP_OUT=7,9,7777,47989,47992,47998-48000,48010
+set RULE_NAME_TCP_IN="_Open GameStream Ports - TCP in"
+set RULE_NAME_TCP_OUT="_Open GameStream Ports - TCP out"
+set RULE_NAME_UDP_IN="_Open GameStream Ports - UDP in"
+set RULE_NAME_UDP_OUT="_Open GameStream Ports - UDP out"
+
+netsh advfirewall firewall show rule name=%RULE_NAME_TCP_IN% >nul
+if not ERRORLEVEL 1 (
+    rem Rule %RULE_NAME_TCP_IN% already exists.
+    echo Hey, you already got a rule by that name, you cannot put another one in!
+) else (
+    echo Rule %RULE_NAME_TCP_IN% does not exist. Creating...
+    netsh advfirewall firewall add rule name=%RULE_NAME_TCP_IN% dir=in action=ALLOW protocol=TCP localport=%PORT_TCP_IN% description=%RULE_NAME_TCP_IN%_%PORT_TCP_IN%
+)
+
+netsh advfirewall firewall show rule name=%RULE_NAME_TCP_OUT% >nul
+if not ERRORLEVEL 1 (
+    rem Rule %RULE_NAME_TCP_OUT% already exists.
+    echo Hey, you already got a rule by that name, you cannot put another one in!
+) else (
+    echo Rule %RULE_NAME_TCP_OUT% does not exist. Creating...
+    netsh advfirewall firewall add rule name=%RULE_NAME_TCP_OUT% dir=out action=ALLOW protocol=TCP localport=%PORT_TCP_OUT% description=%RULE_NAME_TCP_OUT%_%PORT_TCP_OUT%
+)
+
+netsh advfirewall firewall show rule name=%RULE_NAME_UDP_IN% >nul
+if not ERRORLEVEL 1 (
+    rem Rule %RULE_NAME_UDP_IN% already exists.
+    echo Hey, you already got a rule by that name, you cannot put another one in!
+) else (
+    echo Rule %RULE_NAME_UDP_IN% does not exist. Creating...
+    netsh advfirewall firewall add rule name=%RULE_NAME_UDP_IN% dir=in action=ALLOW protocol=UDP localport=%PORT_UDP_IN% description=%RULE_NAME_UDP_IN%_%PORT_UDP_IN%
+)
+
+netsh advfirewall firewall show rule name=%RULE_NAME_UDP_OUT% >nul
+if not ERRORLEVEL 1 (
+    rem Rule %RULE_NAME_UDP_OUT% already exists.
+    echo Hey, you already got a rule by that name, you cannot put another one in!
+) else (
+    echo Rule %RULE_NAME_UDP_OUT% does not exist. Creating...
+    netsh advfirewall firewall add rule name=%RULE_NAME_UDP_OUT% dir=out action=ALLOW protocol=UDP localport=%PORT_UDP_OUT% description=%RULE_NAME_UDP_OUT%_%PORT_UDP_OUT%
+)
+exit
+```
