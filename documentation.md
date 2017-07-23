@@ -6,7 +6,7 @@ Have an extractor/compresser. Get something like [WinRAR](http://www.rarlab.com/
 But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64)’s how you can check if your  PC is 32-bit or 64-bit.
 
 Know your Public IP adress. Just Google `My IP` should should show it tho.   
-Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all` Then find your network, and it's the IPv4 address.
+Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all` Find your network, and it's the IPv4 address.
 
 # Installing
 
