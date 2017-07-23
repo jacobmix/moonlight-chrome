@@ -1,4 +1,4 @@
-# Stuff to know/have before we begin
+# Stuff to know/have before we begin:
 
 [How to see file extensions](https://www.howtohaven.com/system/show-file-extensions-in-windows-explorer.shtml)   
 
@@ -8,7 +8,7 @@ But [here](https://support.microsoft.com/en-us/help/827218/how-to-determine-whet
 Know your Public IP adress. Just Google `My IP` should should show it tho.   
 Know your Local IP. You can see it by opening a CMD window. Enter `ipconfig /all` Find your network, and it's IPv4 address.   
 
-# Installing
+# Installing:
 
 ## Method 1:
 
@@ -31,15 +31,15 @@ You should now see `Moonlight Game Streaming` Enable it if it isn’t already.
 Now you can run it by clicking the blue `Launch` text under the name, and description.   
 You can also make a shortcut by clicking `Details` Then `Create shortcuts...` You can also run it from an [app launcher](https://chrome.google.com/webstore/detail/apps-launcher/ijmgkhchjindcjamnckoiahagecjnkdc).   
 
-# Troubleshooting
+# Troubleshooting:
 
-## Chrome
+## Chrome Troubleshooting:
 
 Make sure Chrome is up to date: `chrome://settings/help`   
 
 Check if Video Decoding, and WebGL are supported or enabled: `chrome://gpu`   
 
-## GeForce Experience
+## GeForce Experience Troubleshooting:
 
 Make sure GeForce Experience, and video drivers are up to date.   
 
@@ -50,18 +50,18 @@ Check if anything shows up when you go to `YourLocalIPHere:47989/serverinfo` if 
 
 If `nvstreamer.exe` is running. Try ending it with taskmanager, and disable. Then re-enable GameStream.   
 
-## Moonlight
+## Moonlight Troubleshooting:
 
 Read the Chrome App Logs   
 
 Delete stored parings   
 
-## Potforward
+## Potforward & Troubleshooting:
 
 Portforward these ports through your router/modem for your hosting PC.   
 TCP: ``35043,47984,47989,47991,47995-47996,48010`` | UDP: ``7,9,47989,47992,47998-48000,48010``   
 
-## Firewall
+## Firewall & Troubleshooting:
 
 Allow all the ports through your hosting PC's firewall.   
 This can be edited manually. But here is a script that will do it for you.   
@@ -130,6 +130,6 @@ if not ERRORLEVEL 1 (
 exit
 ```
 
-# Reporting Issues
+# Reporting Issues:
 
 If you still got problems after troubleshooting please give us all the info from your troubleshooting.   
